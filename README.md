@@ -17,10 +17,11 @@
 
 1. 把当前项目推到你自己的 GitHub 仓库。
 2. 确保 `github_runtime/` 目录也一起推上去。
-3. 在 Colab 表单里填写：
-   `GITHUB_RAW_BASE_URL = https://raw.githubusercontent.com/<你的用户名>/<你的仓库名>/<分支名>/github_runtime`
-4. 保持 `FORCE_RUNTIME_DOWNLOAD = True`。
-5. 以后你只改 GitHub 上的 `.py` 文件，然后在 Colab 重新运行即可拿到最新逻辑。
+3. 当前默认已经填好：
+   `GITHUB_RAW_BASE_URL = https://raw.githubusercontent.com/collinsgraciano/huya-replay-colab-df-youtube-live/master/github_runtime`
+4. 如果你以后改了仓库名或分支名，再按实际情况修改它。
+5. 保持 `FORCE_RUNTIME_DOWNLOAD = True`。
+6. 以后你只改 GitHub 上的 `.py` 文件，然后在 Colab 重新运行即可拿到最新逻辑。
 
 示例：
 
